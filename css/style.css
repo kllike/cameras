@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Luckiest+Guy&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+}
+/*text style*/
+.text-s { font-size: 25px;color: white; }
+.text-m { font-size: 30px; color: white; }
+.text-l { font-size: 50px; color: white; }
+
+.highlight {
+    color: #F68B1F;
+}
+/*backgrounds*/
+.bg-1 { background: #CAD2C5; }
+.bg-2 { background: #84A98C; }
+.bg-3 { background: #52796F; }
+.bg-4 { background: #354F52; }
+.bg-5 { background: #2F3E46; }
+/*basic*/
+.btn{
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+}
+/*header*/
+#header{
+    display: grid;
+    grid-template-columns: 720px 720px;
+    grid-template-rows: 109px;
+    padding: 5px;
+    line-height: 1;
+}
+
+#header img{
+    width: 79px;
+    height: 77px;
+    margin: 15px;
+}
+
+#header > div{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 41px;
+}
+
+#header h3{
+    -webkit-text-stroke: 0.1px black;
+}
+/*showcase*/
+#showcase{
+    background: url(/media/showcase.png) no-repeat center center/cover;
+    background-position: center top;
+    opacity: 90%;
+    height: 363px;
+}
+#showcase h1{
+    font-size: 70px;
+    font-weight: 200;
+    text-shadow:5px 10px #fff;
+    font-family: "Luckiest Guy", serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+/*navigation*/
+#nav{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    column-gap: 7.5px;
+    grid:calc(3*33.3% +2*7.5px);
+    margin: auto;
+    background: #CAD2C5;
+}
+
+.nav-header{
+    background: #354F52;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    height: 64px;
+}
+
+.nav-item{
+    background: #84A98C;
+    align-items: center;
+    border: 1px solid black;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+}
+/*Contact section*/
+/*contact form*/
+#contact{
+    display: grid;
+    grid-template-columns:33.3% 33.3% 33.3%;
+    padding: 20px;
+    height: 350px;
+}
+
+#contact form{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+#contact .form-group{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: auto;
+}
+
+#contact .form-group input{
+    height: 30px;
+}
+#contact .form-group textarea{
+    height: 70px;
+}
+
+#contact .form-group label:target,
+#contact .form-group textarea:target{
+    border: 1px solid black;
+}
+
+
+
+#contact .btn{
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+#contact .btn:hover{
+    transform: translateY(10px) ;
+}
+/*contact section title*/
+#contact h1{
+    text-align: center;
+}
+/*media*/
+#contact .social{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+}
+#contact .social i { 
+    padding: 10px; 
+    margin-bottom: 22px;
+}
+
+#contact .social ul li{
+ list-style-type: none;
+ padding: 2px; 
+}
+/*Footer*/
+#footer{
+    text-align: center;
+}
