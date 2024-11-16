@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inder&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/73bfc1830b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="css/mobile.css">
+    <title>Hübriidkaamerad</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="navbar container-fluid position-fixed fixed-top">
+        <div class="row ">
+             <a class="navbar-brand" href="homepage.html">
+                 <img src="media/img/logo.png" alt="Logo">
+                 <p class="text-decoration-none h4"><span> Kaamerate</span> <br> infokeskus</p>
+             </a>
+        </div>
+        <div class="dropdowns">
+          <div class="dropdown m-2 ">
+            <button class="btn btn-lg dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Tootjad
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item " href="#sony">Sony</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#canon">Canon</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#nikon">Nikon</a></li>
+            </ul>
+          </div>
+          <div class="dropdown m-2">
+            <button class="btn btn-lg dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              MENU
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item " href="hybrid.html">Hübriid</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="video.html">Video</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="drone.html">Droon</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+   
+    <!-- Button trigger modal -->
+     <!--SONY-->
+    <section style="background-color: #778DA9;" id="sony" class="mt-5 pt-5">
+      <div class="text-center container py-5">
+        <h4 class="mt-5 mb-5 pt-3 display-3"><strong>SONY</strong></h4>
+          <!--ROW 1 SONY-->
+          <div class="row justify-content-center">
+            <!--card 1-->
+            <div class="col-lg-3 col-md-5 mb-4">
+              <div class="card">
+                <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                  data-mdb-ripple-color="light">
+                  <img src="media/img/sonya1-card.jpeg"class="w-100"/>
+                </div>
+                <div class="card-body text-light" id="card-body">
+                    <h3 class="card-title mb-3 text-light">Sony a1</h3>
+                  <a href="" class="text-reset text-decoration-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <p class="h5">Vaata Lähemalt</p>
+                  </a>
+                  <p class="mb-3 h4">al.6430€</p>
+                </div>
+              </div>
+            </div>
+            <!--card 1 model-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header bg-dark">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body bg-light">
+                    <div class="container">
+                        <div class="carousel justify-content-center">
+                          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="main-info text-start">
+                          <h2>Sony a1</h2>
+                          <h3>HIND: al.6430€ </h3>
+                        </div>
+                      </div>
+                      <div class="tab">
+                       <button type="button" class="h5 p-2 "> <a class="text-white" href="#kirjeldus">Kirjeldus</a></button> 
+                       <button type="button" class="h5 p-2 "> <a class="text-white" href="#andmed">Adnmed</a></button> 
+                       <button type="button" class="h5 p-2 "> <a class="text-white" href="#osta">Osta</a></button> 
+                        <div id="kirjeldus" class="p-2 text-start">
+                          <p>Sony a1 on Sony lipulaevade hulka kuuluv täiskaader hübriidkaamera, mis on loodud professionaalidele, kes vajavad kompromissitut kvaliteeti nii fotograafias kui ka videograafias. See kaamera ühendab tipptasemel funktsioone, mis sobivad nii kiirete spordiürituste jäädvustamiseks kui ka kinematograafiliseks videoproduktsiooniks.
+                          </p>
+                        </div>
+                        <div id="andmed" class="p-2 text-start">
+                          <table>
+                            <tbody>
+                              <tr><td>Megapiksleid</td><td> 50 megapikslit</td></tr>
+                              <tr><td>Sensori suurus</td><td> Täiskaader</td></tr>
+                              <tr><td>Sensori tüüp </td><td> Exmor R CMOS3</td></tr>
+                              <tr><td>Sensori mõõt</td><td> 35,9 × 24 mm Täiskaader</td></tr>
+                              <tr><td>Suurim pildimõõt pikslites</td><td>8640 × 5760</td></tr>
+                              <tr><td>Väikseim pildimõõt pikslites</td><td> 4320 × 2880</td></tr>
+                              <tr><td>Pildistabilisaator</td><td>Jah</td></tr>
+                              <tr><td>Stabilisaatori suunalisus </td><td>5-teljeline</td></tr>
+                              <tr><td>Stabilisaatori võimekus</td><td> 5,5 stoppi</td></tr>
+                              <tr><td>Teravustamisrežiimid</td><td>Automaatne <br> Ühekordne <br> Pidev DMF (direct manual focus) <br> Manuaal</td></tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <div id="osta" class="text-start p-3">
+                          <ul class="list-unstyled">
+                          <li><a href="">Photopshop</a></li>
+                          <li><a href="">Euronics</a></li>
+                          <li><a href="">A1</a></li>
+                          </ul>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+       <!--car 2-->
+              <div class="col-lg-3 col-md-5 mb-4">
+                <div class="card">
+                  <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                    data-mdb-ripple-color="light">
+                    <img src="media/img/sonya1-card.jpeg"class="w-100"/>
+                  </div>
+                  <div class="card-body text-light" id="card-body">
+                      <h3 class="card-title mb-3 text-light">Product name</h3>
+                    <a href="" class="text-reset text-decoration-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <p class="h5">Vaata Lähemalt</p>
+                    </a>
+                    <p class="mb-3 h4">$61.99</p>
+                  </div>
+                </div>
+              </div>
+              <!--card 2 model-->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-dark">
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-light">
+                      <div class="container">
+                          <div class="carousel justify-content-center">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                              </div>
+                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="main-info text-start">
+                            <h2>Product name</h2>
+                            <h3>HIND:</h3>
+                          </div>
+                        </div>
+                        <div class="tab">
+                         <button type="button" class="h5 p-2 "> <a class="text-white" href="#kirjeldus">Kirjeldus</a></button> 
+                         <button type="button" class="h5 p-2 "> <a class="text-white" href="#andmed">Adnmed</a></button> 
+                         <button type="button" class="h5 p-2 "> <a class="text-white" href="#osta">Osta</a></button> 
+                          <div id="kirjeldus" class="p-2 text-start">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati placeat dicta, fugiat, commodi, est doloremque temporibus repellendus quo omnis impedit blanditiis magni modi? Illo vel quas illum et culpa dolorum tenetur sequi, officiis cupiditate consectetur qui repellendus doloribus ipsum quisquam earum quis numquam, molestias quaerat nulla debitis error est tempore.</p>
+                          </div>
+                          <div id="andmed" class="p-2 text-start">
+                            <table>
+                              <tbody>
+                                <tr><td>Megapiksleid</td><td> 50 megapikslit</td></tr>
+                                <tr><td>Sensori suurus</td><td> Täiskaader</td></tr>
+                                <tr><td>Sensori tüüp </td><td> Exmor R CMOS3</td></tr>
+                                <tr><td>Sensori mõõt</td><td> 35,9 × 24 mm Täiskaader</td></tr>
+                                <tr><td>Suurim pildimõõt pikslites</td><td>8640 × 5760</td></tr>
+                                <tr><td>Väikseim pildimõõt pikslites</td><td> 4320 × 2880</td></tr>
+                                <tr><td>Pildistabilisaator</td><td>Jah</td></tr>
+                                <tr><td>Stabilisaatori suunalisus </td><td>5-teljeline</td></tr>
+                                <tr><td>Stabilisaatori võimekus</td><td> 5,5 stoppi</td></tr>
+                                <tr><td>Teravustamisrežiimid</td><td>Automaatne <br> Ühekordne <br> Pidev DMF (direct manual focus) <br> Manuaal</td></tr>
+                              </tbody>
+                            </table>                          </div>
+                          <div id="osta" class="text-start p-3">
+                            <ul class="list-unstyled">
+                            <li><a href="">Photopshop</a></li>
+                            <li><a href="">Euronics</a></li>
+                            <li><a href="">A1</a></li>
+                            </ul>
+                          </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+               
+               
+                
+                </div> 
+                <!--card 3-->
+                <div class="col-lg-3 col-md-5 mb-4">
+                  <div class="card">
+                    <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                      data-mdb-ripple-color="light">
+                      <img src="media/img/sonya1-card.jpeg"class="w-100"/>
+                    </div>
+                    <div class="card-body text-light" id="card-body">
+                        <h3 class="card-title mb-3 text-light">Product name</h3>
+                      <a href="" class="text-reset text-decoration-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <p class="h5">Vaata Lähemalt</p>
+                      </a>
+                      <p class="mb-3 h4">$61.99</p>
+                    </div>
+                  </div>
+                </div>
+                <!--card 3 model-->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header bg-dark">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body bg-light">
+                        <div class="container">
+                            <div class="carousel justify-content-center">
+                              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="main-info text-start">
+                              <h2>Product name</h2>
+                              <h3>HIND:</h3>
+                            </div>
+                          </div>
+                          <div class="tab">
+                           <button type="button" class="h5 p-2 "> <a class="text-white" href="#kirjeldus">Kirjeldus</a></button> 
+                           <button type="button" class="h5 p-2 "> <a class="text-white" href="#andmed">Adnmed</a></button> 
+                           <button type="button" class="h5 p-2 "> <a class="text-white" href="#osta">Osta</a></button> 
+                            <div id="kirjeldus" class="p-2 text-start">
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati placeat dicta, fugiat, commodi, est doloremque temporibus repellendus quo omnis impedit blanditiis magni modi? Illo vel quas illum et culpa dolorum tenetur sequi, officiis cupiditate consectetur qui repellendus doloribus ipsum quisquam earum quis numquam, molestias quaerat nulla debitis error est tempore.</p>
+                            </div>
+                            <div id="andmed" class="p-2 text-start">
+                              <table>
+                                <tbody>
+                                  <tr><td>Megapiksleid</td><td> 50 megapikslit</td></tr>
+                                  <tr><td>Sensori suurus</td><td> Täiskaader</td></tr>
+                                  <tr><td>Sensori tüüp </td><td> Exmor R CMOS3</td></tr>
+                                  <tr><td>Sensori mõõt</td><td> 35,9 × 24 mm Täiskaader</td></tr>
+                                  <tr><td>Suurim pildimõõt pikslites</td><td>8640 × 5760</td></tr>
+                                  <tr><td>Väikseim pildimõõt pikslites</td><td> 4320 × 2880</td></tr>
+                                  <tr><td>Pildistabilisaator</td><td>Jah</td></tr>
+                                  <tr><td>Stabilisaatori suunalisus </td><td>5-teljeline</td></tr>
+                                  <tr><td>Stabilisaatori võimekus</td><td> 5,5 stoppi</td></tr>
+                                  <tr><td>Teravustamisrežiimid</td><td>Automaatne <br> Ühekordne <br> Pidev DMF (direct manual focus) <br> Manuaal</td></tr>
+                                </tbody>
+                              </table>                            </div>
+                            <div id="osta" class="text-start p-3">
+                              <ul class="list-unstyled">
+                              <li><a href="">Photopshop</a></li>
+                              <li><a href="">Euronics</a></li>
+                              <li><a href="">A1</a></li>
+                              </ul>
+                            </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+      </div>
+      <!--CANON-->
+    <section style="background-color: #E0E1DD;" id="canon">
+      <div class="text-center container py-5">
+        <h4 class="mt-4 mb-5 display-3"><strong>CANON</strong></h4>
+          <!--ROW 1 SONY-->
+          <div class="row justify-content-center">
+            <!--card 1-->
+            <div class="col-lg-3 col-md-5 mb-4">
+              <div class="card">
+                <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                  data-mdb-ripple-color="light">
+                  <img src="media/img/sonya1-card.jpeg"class="w-100"/>
+                </div>
+                <div class="card-body text-light" id="card-body">
+                    <h3 class="card-title mb-3 text-light">Product name</h3>
+                  <a href="" class="text-reset text-decoration-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <p class="h5">Vaata Lähemalt</p>
+                  </a>
+                  <p class="mb-3 h4">$61.99</p>
+                </div>
+              </div>
+            </div>
+            <!--card 1 model-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header bg-dark">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body bg-light">
+                    <div class="container">
+                        <div class="carousel justify-content-center">
+                          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="main-info text-start">
+                          <h2>Product name</h2>
+                          <h3>HIND:</h3>
+                        </div>
+                      </div>
+                      <div class="tab">
+                       <button type="button" class="h5 p-2 "> <a class="text-white" href="#kirjeldus">Kirjeldus</a></button> 
+                       <button type="button" class="h5 p-2 "> <a class="text-white" href="#andmed">Adnmed</a></button> 
+                       <button type="button" class="h5 p-2 "> <a class="text-white" href="#osta">Osta</a></button> 
+                        <div id="kirjeldus" class="p-2 text-start">
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati placeat dicta, fugiat, commodi, est doloremque temporibus repellendus quo omnis impedit blanditiis magni modi? Illo vel quas illum et culpa dolorum tenetur sequi, officiis cupiditate consectetur qui repellendus doloribus ipsum quisquam earum quis numquam, molestias quaerat nulla debitis error est tempore.</p>
+                        </div>
+                        <div id="andmed" class="p-2 text-start">
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsam ipsa facere iusto, aut illo veniam repudiandae necessitatibus obcaecati magni laborum blanditiis repellat commodi cum consequuntur a fugit incidunt ullam. Quod praesentium eveniet accusamus culpa sequi aliquid cum quam ipsam adipisci amet aperiam autem incidunt pariatur soluta harum, voluptates ea.</p>
+                        </div>
+                        <div id="osta" class="text-start p-3">
+                          <ul class="list-unstyled">
+                          <li><a href="">Photopshop</a></li>
+                          <li><a href="">Euronics</a></li>
+                          <li><a href="">A1</a></li>
+                          </ul>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+       <!--car 2-->
+              <div class="col-lg-3 col-md-5 mb-4">
+                <div class="card">
+                  <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                    data-mdb-ripple-color="light">
+                    <img src="media/img/sonya1-card.jpeg"class="w-100"/>
+                  </div>
+                  <div class="card-body text-light" id="card-body">
+                      <h3 class="card-title mb-3 text-light">Product name</h3>
+                    <a href="" class="text-reset text-decoration-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <p class="h5">Vaata Lähemalt</p>
+                    </a>
+                    <p class="mb-3 h4">$61.99</p>
+                  </div>
+                </div>
+              </div>
+              <!--card 2 model-->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-dark">
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-light">
+                      <div class="container">
+                          <div class="carousel justify-content-center">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                              </div>
+                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="main-info text-start">
+                            <h2>Product name</h2>
+                            <h3>HIND:</h3>
+                          </div>
+                        </div>
+                        <div class="tab">
+                         <button type="button" class="h5 p-2 "> <a class="text-white" href="#kirjeldus">Kirjeldus</a></button> 
+                         <button type="button" class="h5 p-2 "> <a class="text-white" href="#andmed">Adnmed</a></button> 
+                         <button type="button" class="h5 p-2 "> <a class="text-white" href="#osta">Osta</a></button> 
+                          <div id="kirjeldus" class="p-2 text-start">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati placeat dicta, fugiat, commodi, est doloremque temporibus repellendus quo omnis impedit blanditiis magni modi? Illo vel quas illum et culpa dolorum tenetur sequi, officiis cupiditate consectetur qui repellendus doloribus ipsum quisquam earum quis numquam, molestias quaerat nulla debitis error est tempore.</p>
+                          </div>
+                          <div id="andmed" class="p-2 text-start">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsam ipsa facere iusto, aut illo veniam repudiandae necessitatibus obcaecati magni laborum blanditiis repellat commodi cum consequuntur a fugit incidunt ullam. Quod praesentium eveniet accusamus culpa sequi aliquid cum quam ipsam adipisci amet aperiam autem incidunt pariatur soluta harum, voluptates ea.</p>
+                          </div>
+                          <div id="osta" class="text-start p-3">
+                            <ul class="list-unstyled">
+                            <li><a href="">Photopshop</a></li>
+                            <li><a href="">Euronics</a></li>
+                            <li><a href="">A1</a></li>
+                            </ul>
+                          </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+               
+               
+                
+                </div> 
+                <!--card 3-->
+                <div class="col-lg-3 col-md-5 mb-4">
+                  <div class="card">
+                    <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                      data-mdb-ripple-color="light">
+                      <img src="media/img/sonya1-card.jpeg"class="w-100"/>
+                    </div>
+                    <div class="card-body text-light" id="card-body">
+                        <h3 class="card-title mb-3 text-light">Product name</h3>
+                      <a href="" class="text-reset text-decoration-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <p class="h5">Vaata Lähemalt</p>
+                      </a>
+                      <p class="mb-3 h4">$61.99</p>
+                    </div>
+                  </div>
+                </div>
+                <!--card 3 model-->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header bg-dark">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body bg-light">
+                        <div class="container">
+                            <div class="carousel justify-content-center">
+                              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="main-info text-start">
+                              <h2>Product name</h2>
+                              <h3>HIND:</h3>
+                            </div>
+                          </div>
+                          <div class="tab">
+                           <button type="button" class="h5 p-2 "> <a class="text-white" href="#kirjeldus">Kirjeldus</a></button> 
+                           <button type="button" class="h5 p-2 "> <a class="text-white" href="#andmed">Adnmed</a></button> 
+                           <button type="button" class="h5 p-2 "> <a class="text-white" href="#osta">Osta</a></button> 
+                            <div id="kirjeldus" class="p-2 text-start">
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati placeat dicta, fugiat, commodi, est doloremque temporibus repellendus quo omnis impedit blanditiis magni modi? Illo vel quas illum et culpa dolorum tenetur sequi, officiis cupiditate consectetur qui repellendus doloribus ipsum quisquam earum quis numquam, molestias quaerat nulla debitis error est tempore.</p>
+                            </div>
+                            <div id="andmed" class="p-2 text-start">
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsam ipsa facere iusto, aut illo veniam repudiandae necessitatibus obcaecati magni laborum blanditiis repellat commodi cum consequuntur a fugit incidunt ullam. Quod praesentium eveniet accusamus culpa sequi aliquid cum quam ipsam adipisci amet aperiam autem incidunt pariatur soluta harum, voluptates ea.</p>
+                            </div>
+                            <div id="osta" class="text-start p-3">
+                              <ul class="list-unstyled">
+                              <li><a href="">Photopshop</a></li>
+                              <li><a href="">Euronics</a></li>
+                              <li><a href="">A1</a></li>
+                              </ul>
+                            </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+      </div>
+    <section style="background-color: #778DA9;" id="nikon">
+      <div class="text-center container py-5">
+        <h4 class="mt-4 mb-5 display-3"><strong>NIKON</strong></h4>
+          <!--ROW 1 SONY-->
+          <div class="row justify-content-center">
+            <!--card 1-->
+            <div class="col-lg-3 col-md-5 mb-4">
+              <div class="card">
+                <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                  data-mdb-ripple-color="light">
+                  <img src="media/img/sonya1-card.jpeg"class="w-100"/>
+                </div>
+                <div class="card-body text-light" id="card-body">
+                    <h3 class="card-title mb-3 text-light">Product name</h3>
+                  <a href="" class="text-reset text-decoration-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <p class="h5">Vaata Lähemalt</p>
+                  </a>
+                  <p class="mb-3 h4">$61.99</p>
+                </div>
+              </div>
+            </div>
+            <!--card 1 model-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header bg-dark">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body bg-light">
+                    <div class="container">
+                        <div class="carousel justify-content-center">
+                          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="main-info text-start">
+                          <h2>Product name</h2>
+                          <h3>HIND:</h3>
+                        </div>
+                      </div>
+                      <div class="tab">
+                       <button type="button" class="h5 p-2 "> <a class="text-white" href="#kirjeldus">Kirjeldus</a></button> 
+                       <button type="button" class="h5 p-2 "> <a class="text-white" href="#andmed">Adnmed</a></button> 
+                       <button type="button" class="h5 p-2 "> <a class="text-white" href="#osta">Osta</a></button> 
+                        <div id="kirjeldus" class="p-2 text-start">
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati placeat dicta, fugiat, commodi, est doloremque temporibus repellendus quo omnis impedit blanditiis magni modi? Illo vel quas illum et culpa dolorum tenetur sequi, officiis cupiditate consectetur qui repellendus doloribus ipsum quisquam earum quis numquam, molestias quaerat nulla debitis error est tempore.</p>
+                        </div>
+                        <div id="andmed" class="p-2 text-start">
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsam ipsa facere iusto, aut illo veniam repudiandae necessitatibus obcaecati magni laborum blanditiis repellat commodi cum consequuntur a fugit incidunt ullam. Quod praesentium eveniet accusamus culpa sequi aliquid cum quam ipsam adipisci amet aperiam autem incidunt pariatur soluta harum, voluptates ea.</p>
+                        </div>
+                        <div id="osta" class="text-start p-3">
+                          <ul class="list-unstyled">
+                          <li><a href="">Photopshop</a></li>
+                          <li><a href="">Euronics</a></li>
+                          <li><a href="">A1</a></li>
+                          </ul>
+                        </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+       <!--car 2-->
+              <div class="col-lg-3 col-md-5 mb-4">
+                <div class="card">
+                  <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                    data-mdb-ripple-color="light">
+                    <img src="media/img/sonya1-card.jpeg"class="w-100"/>
+                  </div>
+                  <div class="card-body text-light" id="card-body">
+                      <h3 class="card-title mb-3 text-light">Product name</h3>
+                    <a href="" class="text-reset text-decoration-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <p class="h5">Vaata Lähemalt</p>
+                    </a>
+                    <p class="mb-3 h4">$61.99</p>
+                  </div>
+                </div>
+              </div>
+              <!--card 2 model-->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header bg-dark">
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bg-light">
+                      <div class="container">
+                          <div class="carousel justify-content-center">
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                              </div>
+                              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="main-info text-start">
+                            <h2>Product name</h2>
+                            <h3>HIND:</h3>
+                          </div>
+                        </div>
+                        <div class="tab">
+                         <button type="button" class="h5 p-2 "> <a class="text-white" href="#kirjeldus">Kirjeldus</a></button> 
+                         <button type="button" class="h5 p-2 "> <a class="text-white" href="#andmed">Adnmed</a></button> 
+                         <button type="button" class="h5 p-2 "> <a class="text-white" href="#osta">Osta</a></button> 
+                          <div id="kirjeldus" class="p-2 text-start">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati placeat dicta, fugiat, commodi, est doloremque temporibus repellendus quo omnis impedit blanditiis magni modi? Illo vel quas illum et culpa dolorum tenetur sequi, officiis cupiditate consectetur qui repellendus doloribus ipsum quisquam earum quis numquam, molestias quaerat nulla debitis error est tempore.</p>
+                          </div>
+                          <div id="andmed" class="p-2 text-start">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsam ipsa facere iusto, aut illo veniam repudiandae necessitatibus obcaecati magni laborum blanditiis repellat commodi cum consequuntur a fugit incidunt ullam. Quod praesentium eveniet accusamus culpa sequi aliquid cum quam ipsam adipisci amet aperiam autem incidunt pariatur soluta harum, voluptates ea.</p>
+                          </div>
+                          <div id="osta" class="text-start p-3">
+                            <ul class="list-unstyled">
+                            <li><a href="">Photopshop</a></li>
+                            <li><a href="">Euronics</a></li>
+                            <li><a href="">A1</a></li>
+                            </ul>
+                          </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+               
+               
+                
+                </div> 
+                <!--card 3-->
+                <div class="col-lg-3 col-md-5 mb-4">
+                  <div class="card">
+                    <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                      data-mdb-ripple-color="light">
+                      <img src="media/img/sonya1-card.jpeg"class="w-100"/>
+                    </div>
+                    <div class="card-body text-light" id="card-body">
+                        <h3 class="card-title mb-3 text-light">Product name</h3>
+                      <a href="" class="text-reset text-decoration-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <p class="h5">Vaata Lähemalt</p>
+                      </a>
+                      <p class="mb-3 h4">$61.99</p>
+                    </div>
+                  </div>
+                </div>
+                <!--card 3 model-->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header bg-dark">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body bg-light">
+                        <div class="container">
+                            <div class="carousel justify-content-center">
+                              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="media/img/sony-fdr-ax43a.1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                            </div>
+                            <div class="main-info text-start">
+                              <h2>Product name</h2>
+                              <h3>HIND:</h3>
+                            </div>
+                          </div>
+                          <div class="tab">
+                           <button type="button" class="h5 p-2 "> <a class="text-white" href="#kirjeldus">Kirjeldus</a></button> 
+                           <button type="button" class="h5 p-2 "> <a class="text-white" href="#andmed">Adnmed</a></button> 
+                           <button type="button" class="h5 p-2 "> <a class="text-white" href="#osta">Osta</a></button> 
+                            <div id="kirjeldus" class="p-2 text-start">
+                              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati placeat dicta, fugiat, commodi, est doloremque temporibus repellendus quo omnis impedit blanditiis magni modi? Illo vel quas illum et culpa dolorum tenetur sequi, officiis cupiditate consectetur qui repellendus doloribus ipsum quisquam earum quis numquam, molestias quaerat nulla debitis error est tempore.</p>
+                            </div>
+                            <div id="andmed" class="p-2 text-start">
+                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsam ipsa facere iusto, aut illo veniam repudiandae necessitatibus obcaecati magni laborum blanditiis repellat commodi cum consequuntur a fugit incidunt ullam. Quod praesentium eveniet accusamus culpa sequi aliquid cum quam ipsam adipisci amet aperiam autem incidunt pariatur soluta harum, voluptates ea.</p>
+                            </div>
+                            <div id="osta" class="text-start p-3">
+                              <ul class="list-unstyled">
+                              <li><a href="">Photopshop</a></li>
+                              <li><a href="">Euronics</a></li>
+                              <li><a href="">A1</a></li>
+                              </ul>
+                            </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+      </div>
+    </section>
+    <footer class="footer">
+        <p class="text-white text-center">&copy Kõik õigused kaitstud 2024</p>
+    </footer>    
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
