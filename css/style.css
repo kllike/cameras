@@ -173,14 +173,33 @@ i:hover{
     justify-content: center;
     align-items: center;
     background: #354a63;
+}#card-body h3{
+    font-family: "Luckiest Guy", sans-serif;
 }
+#card-body p{
+    font-family: "inder", sans-serif;
+}#card-body{
+    background: #415A77;
+    border-radius: 1rem;
+   }
+
 /*footer*/
  .footer{
     background: #0D1B2A;
     font-family: "Inder", sans-serif;
  }
 
-
+/*tabelid*/
+table{
+    border-collapse: collapse;
+    width: 100%; 
+    text-align: center;
+}
+table tr td{
+    border: 2px solid black;
+    text-align: left;
+    padding: 5px;
+}
  .tab div {
     display: none;
   }
@@ -201,18 +220,9 @@ i:hover{
   .tab button:hover{
     background: #778DA9;
   }
-   #card-body{
-    background: #415A77;
-    border-radius: 1rem;
-   }
-#card-body h3{
-    font-family: "Luckiest Guy", sans-serif;
-}
-#card-body p{
-    font-family: "inder", sans-serif;
-}
+   
 
-
+/*menyyd*/
 #produsers{
     display: flex;
     justify-content: center;
@@ -229,13 +239,3 @@ i:hover{
     display: flex;
 }
 
-table{
-    border-collapse: collapse;
-    width: 100%; 
-    text-align: center;
-}
-table tr td{
-    border: 2px solid black;
-    text-align: left;
-    padding: 5px;
-}
