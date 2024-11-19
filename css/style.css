@@ -211,10 +211,7 @@ i:hover{
 #card-body p{
     font-family: "inder", sans-serif;
 }
-#sony #canon #nikon a p:hover{
-color: black;
-font-weight: bold;
-}
+
 
 #produsers{
     display: flex;
